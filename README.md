@@ -58,7 +58,7 @@ behave (toate feature-urile)
 `Pe baza feature-ului de `Register` au fost create 2 scenarii de testare:`
 1. Atunci când se creează un cont nou inserând date in toate câmpurile obligatorii ale paginii (marcate cu *)
    pentru a ne asigura ca acest proces funcționează cum ar trebui
-2. Atunci când se încearcă creerea unui cont nou fără a adăuga nimic în câmpul Last name
+2. Atunci când se încearcă crearea unui cont nou fără a adăuga nimic în câmpul Last name
    pentru a ne asigura ca acel câmp împiedică creerea contului dacă nu este completat corespunzător
 
 `Pe baza secțiunii `Featured Products` din home page s-a creat o suită de 4 teste care verifică dacă
