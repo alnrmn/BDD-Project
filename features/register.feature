@@ -5,9 +5,9 @@ Feature: Register feature
 
   @SMOKE_TEST @REGISTER_FEATURE
   Scenario: Register a new account by filling in all mandatory fields
-    When I fill in "Mark" in First Name field
+    When I fill in "Harry" in First Name field
     And I fill in "Johnson" in Last Name field
-    And I fill in "maark@johns.com" in Email field
+    And I fill in "harry@johns.com" in Email field
     And I fill in "123456" in Password field
     And I fill in "123456" in Confirm password field
     And I click on the Register button
@@ -16,9 +16,9 @@ Feature: Register feature
 
   @NEGATIVE_TEST @REGISTER_FEATURE
   Scenario: Register without filling in a Last name
-    When I fill in "Ionica" in First Name field
+    When I fill in "Marcel" in First Name field
     And I leave blank the Last Name field
-    And I fill in "ionica@jddsshgc.com" in Email field
+    And I fill in "marcel@jddssc.com" in Email field
     And I fill in "123456" in Password field
     And I fill in "123456" in Confirm password field
     And I click on the Register button
